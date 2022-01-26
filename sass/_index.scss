@@ -1,0 +1,44 @@
+nav{
+    background-color: white;
+    .navbar-brand{
+        margin-right: 40px;
+        img{
+            border-right: 1px solid #63636380;
+            padding-right: 40px;
+            box-sizing: border-box;
+    
+        }
+    }
+    ul{
+        .nav-link{
+            color: #00000066;
+            margin-right: 86px;
+        }
+        .active{
+            color:#D1A482;
+        }
+    }
+    .contacts{
+        border: 1px solid #70707080;
+        border-radius: 5px;
+        box-sizing: border-box;
+        .nav-social-contact{
+            padding: 10px;
+            border-right: 1px solid #70707080 ;
+            a{
+                &:first-child{
+                    margin-right: 10px;
+               }
+            }
+        }
+        .phone{
+            padding: 10px;
+           a{
+            color: #00483F;
+           }
+        }
+    }
+}
+.container-fluid{
+    padding: 0px;
+}
