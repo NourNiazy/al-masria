@@ -39,6 +39,26 @@ nav{
         }
     }
 }
-.container-fluid{
-    padding: 0px;
+
+
+.message{
+   .col-6{
+    .message-text{
+        background-color: #F6F6F6 !important;
+        color: #2C2C2C;
+        height: 100% !important;
+        text-align: left;
+        padding: 266px 80px 266px 80px;
+        box-sizing: border-box;
+
+        h6{}
+        p{}
+    }
+   }
+    .message-img{
+        height: 100%;
+        img{
+            width: 100%;
+        }
+    }
 }
