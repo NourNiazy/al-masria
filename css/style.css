@@ -255,7 +255,7 @@ nav .contacts .phone a img {
   }
 }
 
-.projects .projects-content span {
+.projects .projects-content a {
   font-size: 30px;
   color: white;
   text-align: center;
@@ -270,7 +270,7 @@ nav .contacts .phone a img {
           align-items: center;
 }
 
-.projects .projects-content span:first-child {
+.projects .projects-content a:first-child {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
   width: 100%;
@@ -278,17 +278,17 @@ nav .contacts .phone a img {
   background-position: 50% 50%;
 }
 
-.projects .projects-content span:nth-child(2) {
+.projects .projects-content a:nth-child(2) {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
 }
 
-.projects .projects-content span:nth-child(3) {
+.projects .projects-content a:nth-child(3) {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
 }
 
-.projects .projects-content span:last-child {
+.projects .projects-content a:last-child {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
 }
