@@ -104,16 +104,19 @@ nav{
 
 .egyption-company{
     h3{}
-    .egyption-company-content{
-        img{
-            width: 100%;
-        }
-        .bg-div{
-            background-image: url(../img/dark-box.png);
-            width: 100%;
-            height: 553px;
-            p{}
-            span{}
+    .egyption-company-boxes{
+        @include flex;
+        .egyption-company-content{
+            width: 25%;
+            img{
+                width: 100%;
+            }
+            .bg-div{
+                background-image: url(../img/dark-box.png);
+                height: 553px;
+                p{}
+                span{}
+            }
         }
     }
 }

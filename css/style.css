@@ -213,13 +213,28 @@ nav .contacts .phone a img {
   }
 }
 
-.egyption-company .egyption-company-content img {
+.egyption-company .egyption-company-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.egyption-company .egyption-company-boxes .egyption-company-content {
+  width: 25%;
+}
+
+.egyption-company .egyption-company-boxes .egyption-company-content img {
   width: 100%;
 }
 
-.egyption-company .egyption-company-content .bg-div {
+.egyption-company .egyption-company-boxes .egyption-company-content .bg-div {
   background-image: url(../img/dark-box.png);
-  width: 100%;
   height: 553px;
 }
 
