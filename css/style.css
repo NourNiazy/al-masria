@@ -3,6 +3,12 @@ a {
   cursor: pointer;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 button {
   cursor: pointer;
 }
@@ -65,6 +71,10 @@ body {
           box-sizing: border-box;
   font-size: 16px;
   color: #8d9397;
+}
+
+p {
+  margin: 0px;
 }
 
 nav {
@@ -213,6 +223,15 @@ nav .contacts .phone a img {
   }
 }
 
+.egyption-company {
+  padding: 50px 0px 0px 0px;
+}
+
+.egyption-company h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .egyption-company .egyption-company-boxes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -225,8 +244,23 @@ nav .contacts .phone a img {
           align-items: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .egyption-company .egyption-company-boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .egyption-company .egyption-company-boxes .egyption-company-content {
   width: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+  .egyption-company .egyption-company-boxes .egyption-company-content {
+    width: 100%;
+  }
 }
 
 .egyption-company .egyption-company-boxes .egyption-company-content img {
@@ -234,8 +268,38 @@ nav .contacts .phone a img {
 }
 
 .egyption-company .egyption-company-boxes .egyption-company-content .bg-div {
-  background-image: url(../img/dark-box.png);
-  height: 553px;
+  background-image: url(../img/dark-box.png) !important;
+  height: 500px;
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.egyption-company .egyption-company-boxes .egyption-company-content .bg-div h6 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.egyption-company .egyption-company-boxes .egyption-company-content .bg-div span {
+  font-size: 100px;
+}
+
+.egyption-company .egyption-company-boxes .egyption-company-content .light {
+  background-image: url(../img/light-box.png) !important;
 }
 
 .projects {
@@ -408,8 +472,147 @@ nav .contacts .phone a img {
   margin-bottom: 0px;
 }
 
+.leave-your-phonenum {
+  padding: 150px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum {
+    padding: 40px 0px;
+  }
+}
+
 .leave-your-phonenum .panner-img {
-  position: relative;
+  background-image: url(../img/Group40.png) !important;
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin-top: -232px;
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .panner-img {
+    margin-top: -60px;
+    padding: 10px;
+  }
+}
+
+.leave-your-phonenum .panner-img h2 {
+  z-index: 10;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .panner-img h2 {
+    font-size: 12px;
+  }
+}
+
+.leave-your-phonenum .panner-img img {
+  width: 100%;
+  top: -232px;
+}
+
+.leave-your-phonenum .contact-info {
+  background: #F6F6F6;
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .contact-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.leave-your-phonenum .contact-info img {
+  width: 30%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .contact-info img {
+    width: 100%;
+  }
+}
+
+.leave-your-phonenum .contact-info form {
+  width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .contact-info form {
+    width: 100%;
+  }
+}
+
+.leave-your-phonenum .contact-info form input {
+  width: 70%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #C7C7C7;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .contact-info form input {
+    width: 100%;
+  }
+}
+
+.leave-your-phonenum .contact-info form input:focus {
+  outline: none;
+}
+
+.leave-your-phonenum .contact-info form input:before {
+  content: ' ';
+  position: absolute;
+  top: 2px;
+  /* adjust icon position */
+  left: 0px;
+  width: 14px;
+  /* size of a single icon */
+  height: 14px;
+  background-image: url("../img/footer-wa.PNG");
+  /* all icons in a single file */
+  background-repeat: no-repeat;
+  background-position: -48px 0px;
+  /* position of the right icon */
+}
+
+.leave-your-phonenum .contact-info form .button-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.leave-your-phonenum .contact-info form .button-div button {
+  background-color: #00483F;
+  color: white;
+  font-size: 22px;
+  padding: 10px 20px;
+  margin-top: 70px;
+}
+
+.leave-your-phonenum .social-contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -419,19 +622,152 @@ nav .contacts .phone a img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #F6F6F6;
+  border-radius: 10px;
+  padding: 100px 50px;
+  height: 100%;
 }
 
-.leave-your-phonenum .panner-img h2 {
-  position: absolute;
-  z-index: 10;
-  color: white;
-  font-size: 50px;
-  top: -30px;
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .social-contacts {
+    margin-top: 25px;
+  }
 }
 
-.leave-your-phonenum .panner-img img {
+.leave-your-phonenum .social-contacts h4 {
+  margin-bottom: 20px;
+}
+
+.leave-your-phonenum .social-contacts div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .social-contacts div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .social-contacts div a:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+.leave-your-phonenum .social-contacts div a img {
+  height: 80px !important;
+  width: 80px !important;
+}
+
+footer {
+  background-color: #F6F6F6;
+  padding: 60px 0px 30px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .pages {
+    margin-bottom: 30px;
+  }
+}
+
+footer .pages h4 {
+  margin-bottom: 20px;
+}
+
+footer .pages .pages-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .pages .pages-list ul {
+  margin-right: 40px;
+}
+
+footer .pages .pages-list ul li {
+  margin-bottom: 20px;
+}
+
+footer .pages .pages-list ul li a {
+  color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .socail-contacts {
+    margin-bottom: 40px;
+  }
+}
+
+footer .socail-contacts h4 {
+  margin-bottom: 20px;
+}
+
+footer .socail-contacts .social a {
+  border: 1px solid #3B3B3B;
+  border-radius: 5px;
+  padding: 5px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 10px;
+}
+
+footer .socail-contacts .social a i {
+  color: black;
+}
+
+footer .logo img {
   width: 100%;
-  position: absolute;
-  top: -82px;
+}
+
+footer .footer-line {
+  margin: 20px 0px;
+}
+
+footer .footer-line img {
+  width: 100%;
+}
+
+footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .copyright p {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .copyright p {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

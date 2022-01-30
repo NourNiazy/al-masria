@@ -2,7 +2,16 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
-
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+        a{
+            
+        }
+    }
+}
 button {
     cursor: pointer;
 }
@@ -58,4 +67,7 @@ body {
         font-size: 16px;
         color: #8d9397;
     }
+}
+p{
+    margin: 0px;
 }
