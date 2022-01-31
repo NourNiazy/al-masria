@@ -1,3 +1,8 @@
+*{
+    direction: rtl;
+    text-align: right;
+}
+
 .message{
     @include flex;
     height: 100vh;
@@ -214,7 +219,7 @@
         }
         .project-details{
             background-color: #FFFFFF;
-            padding: 20px 0px 0px 20px;
+            padding: 20px 20px 0px 0px;
             box-sizing: border-box;
             border-radius: 10px ;
             
@@ -230,7 +235,7 @@
                 button{
                     background-color: #00483F !important;
                     color: white;
-                    border-radius: 10px 0px
+                    border-radius: 0px 10px;
                 }
             }
             .button-second-div{

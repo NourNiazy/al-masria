@@ -156,6 +156,11 @@ nav .contacts .phone a img {
   margin-right: 10px;
 }
 
+* {
+  direction: rtl;
+  text-align: right;
+}
+
 .message {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -476,7 +481,7 @@ nav .contacts .phone a img {
 
 .secial-projects .project-component .project-details {
   background-color: #FFFFFF;
-  padding: 20px 0px 0px 20px;
+  padding: 20px 20px 0px 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 10px;
@@ -505,7 +510,7 @@ nav .contacts .phone a img {
 .secial-projects .project-component .project-details .button-div button {
   background-color: #00483F !important;
   color: white;
-  border-radius: 10px 0px;
+  border-radius: 0px 10px;
 }
 
 .secial-projects .project-component .project-details .button-second-div {
