@@ -79,6 +79,7 @@ p {
 
 nav {
   background-color: white;
+  direction: rtl;
 }
 
 nav .navbar-toggler {
