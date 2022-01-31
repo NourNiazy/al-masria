@@ -2,7 +2,7 @@ nav{
     background-color: white;
     
     .navbar-toggler{
-       background: #D1A482; 
+       background: $main-color; 
     }
     .navbar-collapse {
         @media only screen and (max-width: 768px) {

@@ -358,9 +358,19 @@ nav .contacts .phone a img {
   background-position: 50% 50%;
 }
 
+.projects .projects-content a:first-child:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(209, 164, 130, 0.6)), to(rgba(209, 164, 130, 0.6))), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
+  background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
+}
+
 .projects .projects-content a:nth-child(2) {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
+}
+
+.projects .projects-content a:nth-child(2):hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(209, 164, 130, 0.6)), to(rgba(209, 164, 130, 0.6))), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
+  background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
 }
 
 .projects .projects-content a:nth-child(3) {
@@ -368,9 +378,19 @@ nav .contacts .phone a img {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
 }
 
+.projects .projects-content a:nth-child(3):hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(209, 164, 130, 0.6)), to(rgba(209, 164, 130, 0.6))), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
+  background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
+}
+
 .projects .projects-content a:last-child {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
+}
+
+.projects .projects-content a:last-child:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(209, 164, 130, 0.6)), to(rgba(209, 164, 130, 0.6))), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
+  background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
 }
 
 .secial-projects {
@@ -416,15 +436,38 @@ nav .contacts .phone a img {
   color: white;
 }
 
+.secial-projects .project-component {
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 768px) {
   .secial-projects .project-component {
     margin-bottom: 30px;
   }
 }
 
-.secial-projects .project-component img {
+.secial-projects .project-component .project-img {
+  overflow: hidden;
+  max-height: 326px;
   margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.secial-projects .project-component .project-img img {
   width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  overflow-x: hidden;
+}
+
+.secial-projects .project-component .project-img img:hover {
+  width: 100%;
+  max-height: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow: hidden;
 }
 
 .secial-projects .project-component .project-details {
@@ -568,6 +611,7 @@ nav .contacts .phone a img {
   border: none;
   border-bottom: 1px solid #C7C7C7;
   padding-bottom: 20px;
+  position: relative;
 }
 
 @media only screen and (max-width: 768px) {
@@ -611,6 +655,14 @@ nav .contacts .phone a img {
   font-size: 22px;
   padding: 10px 20px;
   margin-top: 70px;
+}
+
+.leave-your-phonenum .contact-info form .button-div button:hover {
+  color: #00483F;
+  background-color: white;
+  border: 1px solid #00483F;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .leave-your-phonenum .social-contacts {

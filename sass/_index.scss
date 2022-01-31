@@ -130,17 +130,38 @@
             // left: 50%;
             // transform: translate(-50%, -50%);
             background-position: 50% 50%;
+            &:hover{
+                background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
+           
+            }
         }
         &:nth-child(2){
             background: linear-gradient(rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png)!important;
+        
+            &:hover{
+                background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
+           
+            }
         }
         &:nth-child(3){
             background: linear-gradient(rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png)!important; 
+        
+            &:hover{
+                background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
+           
+            }
         }
         &:last-child{
             background: linear-gradient(rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png)!important;
+        
+            &:hover{
+                background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
+           
+            }
         }
+        
         }
+        //rgb(209, 164, 130)
     }
 }
 
@@ -167,12 +188,29 @@
         }
     }
     .project-component{
+        overflow: hidden;
         @media only screen and (max-width: 768px) {
                margin-bottom: 30px;
              }
-        img{
+        .project-img{
+            overflow: hidden;
+            max-height: 326px;
             margin-bottom: 10px;
-            width: 100%;
+            border-radius: 5px;
+            img{
+                width: 100%;
+                overflow: hidden;
+                max-height: 100%;
+                overflow-x: hidden;
+                &:hover{
+                    width: 100%;
+                    max-height: 100%;
+                    transform: scale(1.1);
+                    -webkit-transition: 0.3s;
+                    transition: 0.3s;
+                    overflow: hidden;
+                }
+            }
         }
         .project-details{
             background-color: #FFFFFF;
@@ -269,6 +307,7 @@
             border: none;
             border-bottom: 1px solid #C7C7C7;
             padding-bottom: 20px;
+            position: relative;
             @media only screen and (max-width: 768px) {
                 width: 100%;
               }
@@ -297,6 +336,12 @@
                 font-size: 22px;
                 padding: 10px 20px;
                 margin-top: 70px;
+                &:hover{
+                    color: #00483F;
+                    background-color: white;
+                    border: 1px solid #00483F;
+                    box-sizing: border-box
+                }
             }
         }
        }
@@ -323,6 +368,9 @@
                 flex-direction: column;
               }
             a{
+                &:hover{
+                    //box-shadow: 0px 0px 46px 0px rgb(0 ,0 ,0 ,0.9);
+                }
                 @media only screen and (max-width: 768px) {
                     &:first-child{
                         margin-bottom: 20px;
@@ -332,6 +380,9 @@
                 img{
                     height: 80px !important;
                     width: 80px !important;
+                    &:hover{
+                        
+                    }
                 }
             }
         }
