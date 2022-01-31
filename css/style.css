@@ -255,6 +255,7 @@ nav .contacts .phone a img {
 
 .egyption-company .egyption-company-boxes .egyption-company-content {
   width: 25%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -269,9 +270,8 @@ nav .contacts .phone a img {
 
 .egyption-company .egyption-company-boxes .egyption-company-content .bg-div {
   background-image: url(../img/dark-box.png) !important;
-  height: 500px;
+  width: 100%;
   background-position: center top;
-  background-size: contain;
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -287,6 +287,7 @@ nav .contacts .phone a img {
       -ms-flex-align: center;
           align-items: center;
   color: white;
+  padding: 130px 0px;
 }
 
 .egyption-company .egyption-company-boxes .egyption-company-content .bg-div h6 {
