@@ -1,0 +1,76 @@
+
+footer{
+    background-color: #F6F6F6;
+    padding: 60px 0px 30px 0px;
+   
+    .pages{
+        @media only screen and (max-width: 768px) {
+            margin-bottom: 30px;
+          }
+        h4{
+            margin-bottom: 20px;
+        }
+        .pages-list{
+            display: flex;
+            ul{
+                margin-right: 40px;
+                li{
+                    margin-bottom: 20px;
+                    a{
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+    .socail-contacts{
+        @media only screen and (max-width: 768px) {
+            margin-bottom: 40px;
+          }
+        h4{
+            margin-bottom: 20px;
+        }
+        .social{
+            
+            a{
+                border: 1px solid #3B3B3B;
+                border-radius: 5px;
+                padding: 5px 8px;
+                box-sizing: border-box;
+                margin-right: 10px;
+                i{
+                    color: black;
+                }
+            }
+        }
+    }
+    .logo{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        img{
+            width: 70%;
+        }
+    }
+
+    .footer-line{
+        margin: 20px 0px;
+        img{
+            width: 100%;
+        }
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 1px;
+            @media only screen and (max-width: 768px) {
+                font-size: 12px;
+              }
+        }
+    }
+}

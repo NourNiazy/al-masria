@@ -24,9 +24,14 @@ nav{
         }
     }
     ul{
+        margin-right: 40px;
+        @media only screen and (max-width: 768px) {
+            margin-right: 0px;
+           }
         .nav-link{
             color: #00000066 !important;
-            margin-right: 86px;
+            margin-left: 40px;
+            
         }
         .active{
             color:#D1A482 !important;
@@ -56,7 +61,7 @@ nav{
             color: #00483F;
             
             img{
-                margin-right: 10px;
+                margin-left: 10px;
             }
            }
         }

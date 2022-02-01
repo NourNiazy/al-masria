@@ -111,7 +111,7 @@ nav .navbar-brand img {
 
 nav ul .nav-link {
   color: #00000066 !important;
-  margin-right: 86px;
+  margin-right: 40px;
 }
 
 nav ul .active {
@@ -150,6 +150,114 @@ nav .contacts .phone a {
 
 nav .contacts .phone a img {
   margin-right: 10px;
+}
+
+footer {
+  background-color: #F6F6F6;
+  padding: 60px 0px 30px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .pages {
+    margin-bottom: 30px;
+  }
+}
+
+footer .pages h4 {
+  margin-bottom: 20px;
+}
+
+footer .pages .pages-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .pages .pages-list ul {
+  margin-right: 40px;
+}
+
+footer .pages .pages-list ul li {
+  margin-bottom: 20px;
+}
+
+footer .pages .pages-list ul li a {
+  color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .socail-contacts {
+    margin-bottom: 40px;
+  }
+}
+
+footer .socail-contacts h4 {
+  margin-bottom: 20px;
+}
+
+footer .socail-contacts .social a {
+  border: 1px solid #3B3B3B;
+  border-radius: 5px;
+  padding: 5px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 10px;
+}
+
+footer .socail-contacts .social a i {
+  color: black;
+}
+
+footer .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .logo img {
+  width: 70%;
+}
+
+footer .footer-line {
+  margin: 20px 0px;
+}
+
+footer .footer-line img {
+  width: 100%;
+}
+
+footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .copyright p {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .copyright p {
+    font-size: 12px;
+  }
 }
 
 .message {
@@ -428,7 +536,7 @@ nav .contacts .phone a img {
 }
 
 .secial-projects .latest-projects div img {
-  margin-right: 10px;
+  margin-right: 10px !important;
 }
 
 .secial-projects .latest-projects button {
@@ -726,113 +834,5 @@ nav .contacts .phone a img {
 .leave-your-phonenum .social-contacts div a img {
   height: 80px !important;
   width: 80px !important;
-}
-
-footer {
-  background-color: #F6F6F6;
-  padding: 60px 0px 30px 0px;
-}
-
-@media only screen and (max-width: 768px) {
-  footer .pages {
-    margin-bottom: 30px;
-  }
-}
-
-footer .pages h4 {
-  margin-bottom: 20px;
-}
-
-footer .pages .pages-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-footer .pages .pages-list ul {
-  margin-right: 40px;
-}
-
-footer .pages .pages-list ul li {
-  margin-bottom: 20px;
-}
-
-footer .pages .pages-list ul li a {
-  color: #000;
-}
-
-@media only screen and (max-width: 768px) {
-  footer .socail-contacts {
-    margin-bottom: 40px;
-  }
-}
-
-footer .socail-contacts h4 {
-  margin-bottom: 20px;
-}
-
-footer .socail-contacts .social a {
-  border: 1px solid #3B3B3B;
-  border-radius: 5px;
-  padding: 5px 8px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-right: 10px;
-}
-
-footer .socail-contacts .social a i {
-  color: black;
-}
-
-footer .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-footer .logo img {
-  width: 70%;
-}
-
-footer .footer-line {
-  margin: 20px 0px;
-}
-
-footer .footer-line img {
-  width: 100%;
-}
-
-footer .copyright {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-footer .copyright p {
-  font-weight: bold;
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-@media only screen and (max-width: 768px) {
-  footer .copyright p {
-    font-size: 12px;
-  }
 }
 /*# sourceMappingURL=style.css.map */
