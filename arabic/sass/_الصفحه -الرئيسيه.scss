@@ -317,7 +317,37 @@
         @media only screen and (max-width: 768px) {
             width: 100%;
           }
-        input{
+          
+          .whatsapp{
+              position: relative;
+              i {
+                position: absolute;
+                top: 5px;
+                right: 63%;
+                font-size: 35px;
+                color: #25D366;
+                @media only screen and (max-width: 768px) {
+                    right: 90%;
+                  }
+            }
+            input{
+                width: 70%;
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid #C7C7C7;
+                padding-bottom: 20px;
+                position: relative;
+                @media only screen and (max-width: 768px) {
+                    width: 100%;
+                  }
+                &:focus{
+                outline: none;
+                }
+            }
+
+          }
+          
+          input{
             width: 70%;
             background: transparent;
             border: none;
@@ -328,19 +358,7 @@
                 width: 100%;
               }
             &:focus{
-                
             outline: none;
-            }
-            &:before{
-                content: ' ';
-                position: absolute;
-                top: 2px; /* adjust icon position */
-                left: 0px;
-                width: 14px; /* size of a single icon */
-                height: 14px;
-                background-image: url("../img/footer-wa.PNG"); /* all icons in a single file */
-                background-repeat: no-repeat;
-                background-position: -48px 0px; /* position of the right icon */
             }
         }
         .button-div{

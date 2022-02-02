@@ -55,6 +55,34 @@
         @media only screen and (max-width: 768px) {
             width: 100%;
           }
+          .whatsapp{
+            position: relative;
+            i {
+              position: absolute;
+              top: 5px;
+              left: 63%;
+              font-size: 35px;
+              color: #25D366;
+              @media only screen and (max-width: 768px) {
+                  left: 90%;
+                }
+          }
+          input{
+              width: 70%;
+              background: transparent;
+              border: none;
+              border-bottom: 1px solid #C7C7C7;
+              padding-bottom: 20px;
+              position: relative;
+              @media only screen and (max-width: 768px) {
+                  width: 100%;
+                }
+              &:focus{
+              outline: none;
+              }
+          }
+
+        }
         input{
             width: 70%;
             background: transparent;

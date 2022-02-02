@@ -270,6 +270,43 @@ nav .contacts .phone a img {
   }
 }
 
+.leave-your-phonenum .contact-info form .whatsapp {
+  position: relative;
+}
+
+.leave-your-phonenum .contact-info form .whatsapp i {
+  position: absolute;
+  top: 5px;
+  left: 63%;
+  font-size: 35px;
+  color: #25D366;
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .contact-info form .whatsapp i {
+    left: 90%;
+  }
+}
+
+.leave-your-phonenum .contact-info form .whatsapp input {
+  width: 70%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #C7C7C7;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .leave-your-phonenum .contact-info form .whatsapp input {
+    width: 100%;
+  }
+}
+
+.leave-your-phonenum .contact-info form .whatsapp input:focus {
+  outline: none;
+}
+
 .leave-your-phonenum .contact-info form input {
   width: 70%;
   background: transparent;
