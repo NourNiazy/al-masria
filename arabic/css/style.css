@@ -79,6 +79,8 @@ p {
 
 nav {
   background-color: white;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   direction: rtl;
 }
 
@@ -542,6 +544,7 @@ nav .contacts .phone a img {
 
 .leave-your-phonenum {
   padding: 150px 0px;
+  background: white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -866,5 +869,71 @@ footer .copyright p {
   footer .copyright p {
     font-size: 12px;
   }
+}
+
+body {
+  background: #F6F6F6;
+}
+
+.unit {
+  direction: rtl;
+  padding: 40px 0px;
+  background: white;
+  margin-bottom: 100px;
+}
+
+.unit .unit-name {
+  margin-bottom: 30px;
+}
+
+.unit .unit-name a {
+  color: black;
+}
+
+.unit .unit-name a i {
+  margin-right: 10px;
+}
+
+.unit .unit-img img {
+  width: 100%;
+  border-radius: 5px;
+  height: 700px;
+}
+
+@media only screen and (max-width: 768px) {
+  .unit .unit-img img {
+    margin-bottom: 20px;
+  }
+}
+
+.unit .unit-details {
+  background: #F6F6F6;
+  padding: 20px;
+  border-radius: 5px;
+  height: 700px;
+}
+
+.unit .unit-details button {
+  background-color: #B78457;
+  color: white;
+  padding: 10px 15px;
+}
+
+.unit .unit-details h5 {
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.unit .unit-details div span {
+  font-weight: bold;
+}
+
+.unit .unit-details div i {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #B78457;
+  border-radius: 5px;
+  color: #B78457;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */

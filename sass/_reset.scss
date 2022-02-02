@@ -71,3 +71,16 @@ body {
 p{
     margin: 0px;
 }
+
+.containercss {
+    width: 1450px !important;
+    margin: 0 auto;
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+    .content {
+        @include flex;
+    }
+}
