@@ -456,13 +456,17 @@ footer{
             margin-bottom: 20px;
         }
         .social{
-            
+            display: flex;
             a{
                 border: 1px solid #3B3B3B;
-                border-radius: 5px;
                 padding: 5px 8px;
                 box-sizing: border-box;
                 margin-right: 10px;
+                border-radius: 10px;
+                width: 34px;
+                height: 34px;
+                display: block;
+                text-align: center;
                 i{
                     color: black;
                 }
