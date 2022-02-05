@@ -1331,4 +1331,241 @@ body {
   border-radius: 10px 0px;
   padding: 5px 15px;
 }
+
+body {
+  background-color: white;
+}
+
+.search .search-header h2 {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.search .search-controls {
+  background: #F6F6F6;
+  padding: 30px 60px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .search-controls .type, .search .search-controls .buying-type, .search .search-controls .size, .search .search-controls .controllers {
+    width: 100%;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .search .search-controls .type, .search .search-controls .buying-type, .search .search-controls .size, .search .search-controls .controllers {
+    width: 100%;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.search .search-controls .type:first-child, .search .search-controls .buying-type:first-child, .search .search-controls .size:first-child, .search .search-controls .controllers:first-child {
+  width: 70% !important;
+  margin-bottom: 20px;
+}
+
+.search .search-controls .type span, .search .search-controls .buying-type span, .search .search-controls .size span, .search .search-controls .controllers span {
+  color: #70707080;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.search .search-controls .type .active, .search .search-controls .buying-type .active, .search .search-controls .size .active, .search .search-controls .controllers .active {
+  background-color: #B78457 !important;
+  color: white;
+  border-radius: 7px;
+}
+
+.search .search-controls .type button, .search .search-controls .buying-type button, .search .search-controls .size button, .search .search-controls .controllers button {
+  background-color: transparent;
+  color: #70707080;
+  border: 1px solid #70707080;
+  margin-right: 20px;
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .search-controls .type button, .search .search-controls .buying-type button, .search .search-controls .size button, .search .search-controls .controllers button {
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .search .search-controls .type button, .search .search-controls .buying-type button, .search .search-controls .size button, .search .search-controls .controllers button {
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+}
+
+.search .search-controls .type input, .search .search-controls .buying-type input, .search .search-controls .size input, .search .search-controls .controllers input {
+  background-color: transparent;
+  border: 1px solid #70707080;
+  border-radius: 7px;
+  padding: 6px;
+  margin-right: 15px;
+  width: 80px;
+}
+
+.search .search-controls .type input::-webkit-input-placeholder, .search .search-controls .buying-type input::-webkit-input-placeholder, .search .search-controls .size input::-webkit-input-placeholder, .search .search-controls .controllers input::-webkit-input-placeholder {
+  color: #70707080;
+}
+
+.search .search-controls .type input:-ms-input-placeholder, .search .search-controls .buying-type input:-ms-input-placeholder, .search .search-controls .size input:-ms-input-placeholder, .search .search-controls .controllers input:-ms-input-placeholder {
+  color: #70707080;
+}
+
+.search .search-controls .type input::-ms-input-placeholder, .search .search-controls .buying-type input::-ms-input-placeholder, .search .search-controls .size input::-ms-input-placeholder, .search .search-controls .controllers input::-ms-input-placeholder {
+  color: #70707080;
+}
+
+.search .search-controls .type input::placeholder, .search .search-controls .buying-type input::placeholder, .search .search-controls .size input::placeholder, .search .search-controls .controllers input::placeholder {
+  color: #70707080;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .search-controls .type input, .search .search-controls .buying-type input, .search .search-controls .size input, .search .search-controls .controllers input {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .search .search-controls .type input, .search .search-controls .buying-type input, .search .search-controls .size input, .search .search-controls .controllers input {
+    margin-bottom: 5px;
+  }
+}
+
+.search .search-controls .controllers button {
+  background-color: #B78457;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.search .search-controls .controllers button:first-child {
+  background-color: transparent;
+  color: #B78457;
+  border: 1px solid #B78457;
+}
+
+.search .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .search .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.search .project .unit-img {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .project .unit-img {
+    width: 100%;
+    margin-right: 0px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .search .project .unit-img {
+    width: 100%;
+    margin-right: 0px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.search .project .unit-img img {
+  width: 48%;
+  border-radius: 5px;
+  margin-right: 20px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .project .unit-img img:last-child {
+    margin-right: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .search .project .unit-img img:last-child {
+    margin-right: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .search .project .unit-img img {
+    margin-bottom: 20px;
+    margin-right: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .search .project .unit-img img {
+    margin-bottom: 20px;
+    margin-right: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .search .project .unit-details {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .search .project .unit-details {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
