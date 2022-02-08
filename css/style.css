@@ -1596,6 +1596,83 @@ body {
   height: 100%;
 }
 
+.new-secial-projects .unit-name {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding-right: 25px;
+  font-weight: bold;
+}
+
+.new-secial-projects .unit-name a {
+  color: black;
+}
+
+.new-secial-projects .unit-name a i {
+  margin-right: 10px;
+}
+
+.new-secial-projects .related-news h5 {
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+
+.new-secial-projects .new-project-component {
+  border-right: 1px solid #bebbbb;
+  padding-right: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .new-secial-projects .new-project-component {
+    border-right: none;
+    padding-right: 0px;
+    border-bottom: 1px solid #bebbbb;
+    padding-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .new-secial-projects .new-project-component {
+    border-right: none;
+    padding-right: 0px;
+    border-bottom: 1px solid #bebbbb;
+    padding-bottom: 25px;
+  }
+}
+
+.new-secial-projects .new-project-component .project-img {
+  margin-bottom: 30px !important;
+  height: 700px !important;
+}
+
+.new-secial-projects .new-project-component .project-img img {
+  height: 700px !important;
+}
+
+.new-secial-projects .new-project-component .project-details {
+  padding: 30px !important;
+}
+
+.new-secial-projects .new-project-component .project-details h6 {
+  font-size: 30px !important;
+}
+
+.new-secial-projects .new-project-component .project-details span {
+  font-size: 20px !important;
+  padding: 10px 0px !important;
+}
+
+.new-secial-projects .new-project-component .project-details p {
+  color: black !important;
+}
+
 .news-secial-projects {
   background-color: white;
   padding: 60px 0px 150px 0px;
