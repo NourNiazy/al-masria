@@ -77,28 +77,28 @@ p {
   margin: 0px;
 }
 
-nav {
+.navbar {
   background-color: white;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   direction: rtl;
 }
 
-nav .navbar-toggler {
+.navbar .navbar-toggler {
   background: #D1A482;
 }
 
 @media only screen and (max-width: 768px) {
-  nav .navbar-collapse {
+  .navbar .navbar-collapse {
     margin-top: 30px;
   }
 }
 
-nav .navbar-brand {
+.navbar .navbar-brand {
   margin-right: 40px;
 }
 
-nav .navbar-brand img {
+.navbar .navbar-brand img {
   border-right: none;
   border-left: 1px solid #63636380;
   padding-left: 40px;
@@ -108,32 +108,32 @@ nav .navbar-brand img {
 }
 
 @media only screen and (max-width: 768px) {
-  nav .navbar-brand img {
+  .navbar .navbar-brand img {
     border: none;
     width: 120px;
   }
 }
 
-nav ul {
+.navbar ul {
   margin-right: 40px;
 }
 
 @media only screen and (max-width: 768px) {
-  nav ul {
+  .navbar ul {
     margin-right: 0px;
   }
 }
 
-nav ul .nav-link {
+.navbar ul .nav-link {
   color: #00000066 !important;
   margin-left: 40px;
 }
 
-nav ul .active {
+.navbar ul .active {
   color: #D1A482 !important;
 }
 
-nav .contacts {
+.navbar .contacts {
   border: 1px solid #70707080;
   border-radius: 5px;
   -webkit-box-sizing: border-box;
@@ -141,31 +141,31 @@ nav .contacts {
 }
 
 @media only screen and (max-width: 768px) {
-  nav .contacts {
+  .navbar .contacts {
     width: 70%;
   }
 }
 
-nav .contacts .nav-social-contact {
+.navbar .contacts .nav-social-contact {
   padding: 10px;
   border-right: none;
   border-left: 1px solid #70707080;
 }
 
-nav .contacts .nav-social-contact a:first-child {
+.navbar .contacts .nav-social-contact a:first-child {
   margin-right: 0px;
   margin-left: 10px;
 }
 
-nav .contacts .phone {
+.navbar .contacts .phone {
   padding: 10px;
 }
 
-nav .contacts .phone a {
+.navbar .contacts .phone a {
   color: #00483F;
 }
 
-nav .contacts .phone a img {
+.navbar .contacts .phone a img {
   margin-left: 10px;
 }
 
@@ -1431,5 +1431,182 @@ body {
 
 .about-us-chairman-message {
   margin-bottom: 200px;
+}
+
+.news-secial-projects {
+  background-color: white;
+  padding: 60px 0px 150px 0px;
+}
+
+.news-secial-projects .latest-projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0px;
+}
+
+.news-secial-projects .latest-projects div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news-secial-projects .latest-projects div img {
+  margin-right: 10px !important;
+}
+
+.news-secial-projects .latest-projects button {
+  background-color: #B78457;
+  color: white;
+}
+
+.news-secial-projects .project-component {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .news-secial-projects .project-component {
+    margin-bottom: 30px;
+  }
+}
+
+.news-secial-projects .project-component .project-img {
+  overflow: hidden;
+  max-height: 450px !important;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.news-secial-projects .project-component .project-img img {
+  width: 100%;
+  overflow: hidden;
+  max-height: 100% !important;
+  overflow-x: hidden;
+}
+
+.news-secial-projects .project-component .project-img img:hover {
+  width: 100%;
+  max-height: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.news-secial-projects .project-component .project-details {
+  background-color: #F6F6F6;
+  padding: 20px 20px 0px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.news-secial-projects .project-component .project-details .project-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: black;
+}
+
+.news-secial-projects .project-component .project-details .project-name span {
+  margin-left: 10px;
+  color: black;
+}
+
+.news-secial-projects .project-component .project-details .project-name h6 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.news-secial-projects .project-component .project-details p {
+  color: #757575;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.news-secial-projects .project-component .project-details span {
+  color: #B78457;
+  font-size: 14px;
+}
+
+.news-secial-projects .project-component .project-details .button-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.news-secial-projects .project-component .project-details .button-div button {
+  background-color: #00483F !important;
+  color: white;
+  border-radius: 0px 10px;
+}
+
+.news-secial-projects .project-component .project-details .button-div button:hover {
+  background-color: #003630 !important;
+}
+
+.news-secial-projects .pagination-nav .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0px;
+}
+
+.news-secial-projects .pagination-nav .pagination .active {
+  border-radius: 5px;
+}
+
+.news-secial-projects .pagination-nav .pagination .active span {
+  background-color: #B78457 !important;
+  border: none;
+}
+
+.news-secial-projects .pagination-nav .pagination .page-item {
+  margin-right: 10px;
+}
+
+.news-secial-projects .pagination-nav .pagination .page-item .page-link {
+  border-radius: 5px;
+  color: white;
+  background-color: #adabab;
+  padding: 5px 10px;
+}
+
+.news-secial-projects .pagination-nav .pagination .page-item .page-link:hover {
+  background-color: #7a7979;
 }
 /*# sourceMappingURL=style.css.map */
