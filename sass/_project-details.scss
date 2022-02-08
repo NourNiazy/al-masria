@@ -1,0 +1,22 @@
+.project-details{
+    .available-unites{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        img{
+            margin-right: 10px;
+        }
+    }
+    .project{
+        .unit-img{
+            width: 25%;
+            img{
+                width: 100%;
+            }
+        }
+        .unit-details{
+            width: 25%;
+            height: 100%;
+        }
+    }
+}

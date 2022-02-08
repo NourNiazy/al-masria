@@ -1361,4 +1361,75 @@ body {
     width: 100%;
   }
 }
+
+body {
+  background-color: #F6F6F6;
+}
+
+.about-us {
+  padding-bottom: 300px;
+}
+
+.about-us .about-us-bg-div {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.about-us .about-us-bg-div img {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+  border: 10px solid transparent;
+  outline: #bebaba solid 2px;
+}
+
+.about-us .about-us-info {
+  text-align: center;
+  position: relative;
+  top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-us .about-us-info .position {
+  margin-bottom: 10px;
+}
+
+.about-us .about-us-info .name {
+  margin-bottom: 10px;
+}
+
+.about-us .about-us-info .description {
+  width: 90%;
+  font-size: 21px;
+}
+
+.about-us-message .message-text {
+  background-color: white !important;
+}
+
+.about-us-chairman-message {
+  margin-bottom: 200px;
+}
 /*# sourceMappingURL=style.css.map */
