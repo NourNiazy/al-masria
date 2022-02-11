@@ -509,7 +509,7 @@ footer .logo {
 }
 
 footer .logo img {
-  width: 70%;
+  width: 50%;
 }
 
 footer .footer-line {
@@ -546,6 +546,22 @@ footer .copyright p {
   footer .copyright p {
     font-size: 12px;
   }
+}
+
+footer .copyright div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .copyright div img {
+  width: 50%;
 }
 
 .message {
@@ -689,6 +705,7 @@ footer .copyright p {
 .egyption-company .egyption-company-boxes .egyption-company-content .bg-div h6 {
   font-size: 32px;
   margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 .egyption-company .egyption-company-boxes .egyption-company-content .bg-div span {
@@ -987,7 +1004,7 @@ footer .copyright p {
 
 @media only screen and (max-width: 768px) {
   .leave-your-phonenum .contact-info img {
-    width: 100%;
+    width: 30%;
   }
 }
 
@@ -1569,6 +1586,10 @@ body {
   }
 }
 
+.unit-project-details {
+  margin-bottom: 0px;
+}
+
 .project-details .available-unites {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1584,16 +1605,113 @@ body {
 }
 
 .project-details .project .unit-img {
-  width: 25%;
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-details .project .unit-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .project-details .project .unit-img {
+    width: 100%;
+  }
 }
 
 .project-details .project .unit-img img {
   width: 100%;
+  height: 100%;
 }
 
 .project-details .project .unit-details {
-  width: 25%;
-  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-details .project .unit-details {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .project-details .project .unit-details {
+    width: 100%;
+  }
+}
+
+.project-details .project .unit-details button {
+  width: 50%;
+}
+
+.blueprint {
+  background: #F6F6F6;
+  padding: 40px 0px;
+}
+
+.blueprint .blueprint-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.blueprint .blueprint-header img {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.blueprint .blueprint-header h6 {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.blueprint .single-item-slider {
+  width: 97%;
+  position: relative;
+}
+
+.blueprint .single-item-slider div img {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.blueprint .next-arrow {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+
+.blueprint .next-arrow i {
+  color: white;
+  background-color: #B78457;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.blueprint .dots {
+  font-size: 40px;
 }
 
 .new-secial-projects .unit-name {
