@@ -155,7 +155,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   .navbar .contacts {
-    width: 70%;
+    width: 100%;
   }
 }
 
@@ -2141,6 +2141,13 @@ body {
   outline: #bebaba solid 2px;
 }
 
+@media only screen and (max-width: 768px) {
+  .about-us .about-us-bg-div img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 .about-us .about-us-info {
   text-align: center;
   position: relative;
@@ -2171,6 +2178,12 @@ body {
 .about-us .about-us-info .description {
   width: 90%;
   font-size: 21px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us .about-us-info .description {
+    font-size: 19px;
+  }
 }
 
 .about-us-message .message-text {
