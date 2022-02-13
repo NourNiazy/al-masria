@@ -38,33 +38,61 @@
             color:#D1A482 !important;
         }
     }
-    .contacts{
-        border: 1px solid #70707080;
-        border-radius: 5px;
-        box-sizing: border-box;
+    .contact{
         @media only screen and (max-width: 768px) {
-           width: 70%;
-          }
-          .nav-social-contact{
-            padding: 10px;
-            border-right: none ;
-            border-left: 1px solid #70707080 ;
-            a{
-                &:first-child{
-                    margin-right: 0px;
-                    margin-left: 10px;
+            flex-direction: column;
+           }
+        .languages{
+            margin-left: 10px;
+            border: 1px solid #70707080;
+            border-radius: 5px;
+            box-sizing: border-box;
+            height: 100%;
+            @media only screen and (max-width: 768px) {
+                margin-bottom: 10px;
+                width: 33%;
                }
+            a{
+                img{
+                    height: 50px !important;
+                    padding:10px;
+                    box-sizing: border-box;
+                    opacity: 0.5;
+                }
+                .active-img{
+                    background-color: #F6F6F6;
+                    opacity: 1 !important;
+                }
             }
         }
-        .phone{
-            padding: 10px;
-           a{
-            color: #00483F;
-            
-            img{
-                margin-left: 10px;
+        .contacts{
+            border: 1px solid #70707080;
+            border-radius: 5px;
+            box-sizing: border-box;
+            display: flex;
+            @media only screen and (max-width: 768px) {
+               width: 100%;
+              }
+            .nav-social-contact{
+                padding: 10px;
+                border-right: none ;
+                border-left: 1px solid #70707080 ;
+                a{
+                    &:first-child{
+                        margin-right: 0px;
+                    margin-left: 10px;
+                   }
+                }
             }
-           }
+            .phone{
+                padding: 10px;
+               a{
+                color: #00483F;
+                img{
+                    margin-left: 10px;
+                }
+               }
+            }
         }
     }
 }
