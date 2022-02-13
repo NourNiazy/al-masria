@@ -246,6 +246,12 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
   }
 }
 
@@ -419,6 +425,11 @@ p {
   }
 }
 
+.leave-your-phonenum .social-contacts div a:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5) !important;
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5) !important;
+}
+
 @media only screen and (max-width: 768px) {
   .leave-your-phonenum .social-contacts div a:first-child {
     margin-bottom: 20px;
@@ -463,6 +474,10 @@ footer .pages .pages-list ul li a {
   color: #000;
 }
 
+footer .pages .pages-list ul li a:hover {
+  color: #D1A482;
+}
+
 @media only screen and (max-width: 768px) {
   footer .socail-contacts {
     margin-bottom: 40px;
@@ -490,6 +505,10 @@ footer .socail-contacts .social a {
   height: 34px;
   display: block;
   text-align: center;
+}
+
+footer .socail-contacts .social a:hover {
+  background-color: rgba(196, 189, 189, 0.5);
 }
 
 footer .socail-contacts .social a i {
@@ -748,6 +767,16 @@ footer .copyright div img {
   }
 }
 
+.projects .projects-content:nth-child(2) {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/national-cancer-institute-cP6Z_VKMCuo-unsplash.png) !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/national-cancer-institute-cP6Z_VKMCuo-unsplash.png) !important;
+}
+
+.projects .projects-content:nth-child(2):hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(209, 164, 130, 0.6)), to(rgba(209, 164, 130, 0.6))), url(../img/national-cancer-institute-cP6Z_VKMCuo-unsplash.png) !important;
+  background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/national-cancer-institute-cP6Z_VKMCuo-unsplash.png) !important;
+}
+
 .projects .projects-content a {
   font-size: 30px;
   color: white;
@@ -772,16 +801,6 @@ footer .copyright div img {
 }
 
 .projects .projects-content a:first-child:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(209, 164, 130, 0.6)), to(rgba(209, 164, 130, 0.6))), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
-  background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
-}
-
-.projects .projects-content a:nth-child(2) {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/krisztina-papp-VRnb4dMwmBQ-unsplash.png) !important;
-}
-
-.projects .projects-content a:nth-child(2):hover {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(209, 164, 130, 0.6)), to(rgba(209, 164, 130, 0.6))), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
   background: linear-gradient(rgba(209, 164, 130, 0.6), rgba(209, 164, 130, 0.6)), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.png) !important;
 }
